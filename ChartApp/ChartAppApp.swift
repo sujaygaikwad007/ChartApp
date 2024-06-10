@@ -1,9 +1,6 @@
-//
-//  ChartAppApp.swift
-//  ChartApp
-//
-//  Created by Aniket Patil on 10/06/24.
-//
+/*
+ Package Manager URL: https://github.com/ChartsOrg/Charts.git
+ */
 
 import SwiftUI
 
@@ -11,7 +8,7 @@ import SwiftUI
 struct ChartAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

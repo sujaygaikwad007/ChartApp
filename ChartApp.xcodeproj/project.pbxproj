@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1F2A82F92C16E63000BC161A /* ChartAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A82F82C16E63000BC161A /* ChartAppApp.swift */; };
-		1F2A82FB2C16E63000BC161A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A82FA2C16E63000BC161A /* ContentView.swift */; };
 		1F2A82FD2C16E63300BC161A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A82FC2C16E63300BC161A /* Assets.xcassets */; };
 		1F2A83002C16E63300BC161A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A82FF2C16E63300BC161A /* Preview Assets.xcassets */; };
+		1F2A830C2C16E70F00BC161A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A830B2C16E70F00BC161A /* HomeView.swift */; };
+		1F5F757C2C1701C6004B05AF /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 1F5F757B2C1701C6004B05AF /* Charts */; };
+		1F5F75822C17104F004B05AF /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75812C17104F004B05AF /* ChartType.swift */; };
+		1F5F758A2C171958004B05AF /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75892C171958004B05AF /* PickerView.swift */; };
+		1F5F758E2C171995004B05AF /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F758D2C171995004B05AF /* BarChartView.swift */; };
+		1F5F75902C1719B2004B05AF /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F758F2C1719B2004B05AF /* LineChartView.swift */; };
+		1F5F75922C172C5C004B05AF /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75912C172C5C004B05AF /* PieChartView.swift */; };
+		1F5F75942C172D8E004B05AF /* ScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75932C172D8E004B05AF /* ScatterChartView.swift */; };
+		1F5F75962C172DA4004B05AF /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75952C172DA4004B05AF /* RadarChartView.swift */; };
+		1F5F75982C172DBE004B05AF /* CandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75972C172DBE004B05AF /* CandleStickChartView.swift */; };
+		1F5F759A2C172DD3004B05AF /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F75992C172DD3004B05AF /* BubbleChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F2A82F52C16E63000BC161A /* ChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2A82F82C16E63000BC161A /* ChartAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAppApp.swift; sourceTree = "<group>"; };
-		1F2A82FA2C16E63000BC161A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F2A82FC2C16E63300BC161A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2A82FF2C16E63300BC161A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F2A830B2C16E70F00BC161A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F5F75812C17104F004B05AF /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
+		1F5F75892C171958004B05AF /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1F5F758D2C171995004B05AF /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		1F5F758F2C1719B2004B05AF /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		1F5F75912C172C5C004B05AF /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		1F5F75932C172D8E004B05AF /* ScatterChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterChartView.swift; sourceTree = "<group>"; };
+		1F5F75952C172DA4004B05AF /* RadarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartView.swift; sourceTree = "<group>"; };
+		1F5F75972C172DBE004B05AF /* CandleStickChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleStickChartView.swift; sourceTree = "<group>"; };
+		1F5F75992C172DD3004B05AF /* BubbleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5F757C2C1701C6004B05AF /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				1F2A82F82C16E63000BC161A /* ChartAppApp.swift */,
-				1F2A82FA2C16E63000BC161A /* ContentView.swift */,
-				1F2A82FC2C16E63300BC161A /* Assets.xcassets */,
+				1F2A83082C16E65A00BC161A /* Views */,
+				1F2A83072C16E64D00BC161A /* ViewModel */,
+				1F2A83062C16E64300BC161A /* Model */,
+				1F2A83092C16E68100BC161A /* Extensions */,
+				1F2A830A2C16E69400BC161A /* Assets */,
 				1F2A82FE2C16E63300BC161A /* Preview Content */,
 			);
 			path = ChartApp;
@@ -65,6 +88,68 @@
 				1F2A82FF2C16E63300BC161A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F2A83062C16E64300BC161A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F75812C17104F004B05AF /* ChartType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F2A83072C16E64D00BC161A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F2A83082C16E65A00BC161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A83122C16F06700BC161A /* Components */,
+				1F2A830B2C16E70F00BC161A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F2A83092C16E68100BC161A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F2A830A2C16E69400BC161A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A82FC2C16E63300BC161A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1F2A83122C16F06700BC161A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F758C2C17198A004B05AF /* Charts */,
+				1F5F75892C171958004B05AF /* PickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1F5F758C2C17198A004B05AF /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F758D2C171995004B05AF /* BarChartView.swift */,
+				1F5F758F2C1719B2004B05AF /* LineChartView.swift */,
+				1F5F75912C172C5C004B05AF /* PieChartView.swift */,
+				1F5F75932C172D8E004B05AF /* ScatterChartView.swift */,
+				1F5F75952C172DA4004B05AF /* RadarChartView.swift */,
+				1F5F75972C172DBE004B05AF /* CandleStickChartView.swift */,
+				1F5F75992C172DD3004B05AF /* BubbleChartView.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,9 @@
 			dependencies = (
 			);
 			name = ChartApp;
+			packageProductDependencies = (
+				1F5F757B2C1701C6004B05AF /* Charts */,
+			);
 			productName = ChartApp;
 			productReference = 1F2A82F52C16E63000BC161A /* ChartApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 1F2A82EC2C16E63000BC161A;
+			packageReferences = (
+				1F5F757A2C1701C6004B05AF /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 1F2A82F62C16E63000BC161A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2A82FB2C16E63000BC161A /* ContentView.swift in Sources */,
+				1F5F75922C172C5C004B05AF /* PieChartView.swift in Sources */,
+				1F5F75962C172DA4004B05AF /* RadarChartView.swift in Sources */,
+				1F5F75822C17104F004B05AF /* ChartType.swift in Sources */,
+				1F5F759A2C172DD3004B05AF /* BubbleChartView.swift in Sources */,
 				1F2A82F92C16E63000BC161A /* ChartAppApp.swift in Sources */,
+				1F5F75902C1719B2004B05AF /* LineChartView.swift in Sources */,
+				1F5F75982C172DBE004B05AF /* CandleStickChartView.swift in Sources */,
+				1F5F75942C172D8E004B05AF /* ScatterChartView.swift in Sources */,
+				1F5F758A2C171958004B05AF /* PickerView.swift in Sources */,
+				1F2A830C2C16E70F00BC161A /* HomeView.swift in Sources */,
+				1F5F758E2C171995004B05AF /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +369,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChartApp/Preview Content\"";
+				DEVELOPMENT_TEAM = RYNS47QW35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,14 +400,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChartApp/Preview Content\"";
+				DEVELOPMENT_TEAM = RYNS47QW35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F5F757A2C1701C6004B05AF /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F5F757B2C1701C6004B05AF /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F5F757A2C1701C6004B05AF /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F2A82ED2C16E63000BC161A /* Project object */;
 }
